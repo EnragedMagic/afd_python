@@ -1,6 +1,6 @@
 import sys
 
-archivo_conf = sys.argv[1]
+archivo_conf = sys.argv[1] # Se leen los argumentos o parametros para el programa 
 archivo_cadenas = sys.argv[2]
 
 transiciones = {}
@@ -9,13 +9,13 @@ with open(archivo_conf, "r") as f:
     for linea in f:
         linea = linea.strip()
 
-        if not linea:
+        if not linea:  # Si la linea esta vacia continua la siguiente 
             continue
 
-        if linea.startswith("estados="):
+        if linea.startswith("estados="):  # Si la linea empieza con estados empieza a leerlos 
             estados = linea.split("=")[1].split(",")
 
-        elif linea.startswith("alfabeto="):
+        elif linea.startswith("alfabeto="): # Empieza a leer el alfabeto, por ejemplo a,b 
             alfabeto = linea.split("=")[1].split(",")
 
         elif linea.startswith("inicial="):
