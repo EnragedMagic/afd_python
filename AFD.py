@@ -1,3 +1,6 @@
+# El programa lee conf.txt, guarda las transiciones del AFD
+# y prueba cada cadena para verificar si termina en un estado final.
+
 import sys
 
 archivo_conf = sys.argv[1] # Se leen los argumentos o parametros para el programa 
