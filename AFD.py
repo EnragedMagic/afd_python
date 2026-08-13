@@ -1,6 +1,7 @@
 # El programa lee conf.txt, guarda las transiciones del AFD
 # y prueba cada cadena para verificar si termina en un estado final.
-
+# Primero carga desde la terminal los nombres de conf.txt y cadenas.txt usando sys.argv. Luego crea un diccionario de transiciones, lee conf.txt y guarda ahí los estados, alfabeto, estado inicial, estados finales y cada transición.
+# Después lee cada cadena de cadenas.txt, la recorre letra por letra, consulta en el diccionario a qué estado debe ir y al final verifica si quedó en un estado final.
 import sys
 
 archivo_conf = sys.argv[1] # Se leen los argumentos o parametros para el programa 
