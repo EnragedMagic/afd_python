@@ -1,4 +1,4 @@
-# AFD en Python - Johan Galeno - Angel Arcos
+# AFD en Python - Johan Galeno - Andres Coral
 
 ## Objetivo 
 
