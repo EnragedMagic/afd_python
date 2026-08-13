@@ -1,3 +1,6 @@
+#AFD para (a|b)*abb
+#Lee cualquier combinacion de a y b y acepta solo si la cadena termina en abb.
+
 estados=q0,q1,q2,q3
 alfabeto=a,b
 inicial=q0
