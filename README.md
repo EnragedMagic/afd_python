@@ -1,6 +1,6 @@
-# AFD en Python
+# AFD en Python - Johan Galeno - Angel Arcos
 
-## Objetivo de la tarea
+## Objetivo 
 
 El objetivo de esta tarea es implementar un **Autómata Finito Determinista (AFD) en Python** que pueda ser configurado mediante un archivo de texto.
 
@@ -13,7 +13,7 @@ El programa debe leer la configuración del AFD, procesar cada cadena símbolo p
 
 ---
 
-## Ejercicio elegido
+## Ejercicio 
 
 Para probar el funcionamiento del programa se eligió la expresión regular:
 
